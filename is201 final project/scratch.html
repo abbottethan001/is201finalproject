@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball | Ethan Abbott</title>
+    <link rel="stylesheet" href="scratch.css">
+</head>
+<body>
+
+    <!-- ===== NAV ===== -->
+    <nav id="top" class="scratch-nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-brand">Ethan Abbott</a>
+            <div class="nav-links">
+                <a href="#passion">My Passion</a>
+                <a href="#video-sec">Video</a>
+                <a href="#tableau-sec">Stats</a>
+                <a href="index.html">About Me</a>
+                <a href="webapp.html" class="nav-cta">Snake Game</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <div class="hero-wrap">
+        <div class="hero-inner">
+            <h1>My Love for Basketball</h1>
+            <p>The game that taught me teamwork, grit, and how to win together</p>
+            <a href="#passion" class="hero-btn">Learn More</a>
+        </div>
+    </div>
+
+    <!-- ===== PASSION SECTION ===== -->
+    <div id="passion" class="sec-wrap">
+        <div class="sec-inner">
+
+            <div class="sec-head"><h2>Why I Love the Game</h2></div>
+
+            <div class="two-col">
+                <div class="col-text">
+                    <p>
+                        I've loved basketball basically my whole life. Growing up I'd watch games whenever I could
+                        and play pickup at any gym I could get into. It's one of those things that just stuck with me.
+                    </p>
+                    <p>
+                        Being at BYU, getting to watch the Cougars in the Big 12 has been awesome. The Marriott Center
+                        on a big game night is a completely different level of energy. It's loud, it's packed, and
+                        there's nothing quite like it.
+                    </p>
+                    <p>What the game has taught me:</p>
+                    <ol class="fav-list">
+                        <li><strong>Leadership</strong>
+                            <ul class="player-list">
+                                <li>How to earn trust before giving direction</li>
+                                <li>When to step up and when to step back</li>
+                            </ul>
+                        </li>
+                        <li><strong>Teamwork</strong>
+                            <ul class="player-list">
+                                <li>Trusting others to do their job</li>
+                                <li>Communicating clearly under pressure</li>
+                            </ul>
+                        </li>
+                        <li><strong>Resilience</strong>
+                            <ul class="player-list">
+                                <li>Bouncing back after a bad game or a tough loss</li>
+                                <li>Staying consistent even when things are not going your way</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-photo">
+                    <img src="images/ethan.jpg" alt="Ethan Abbott" class="profile-pic">
+                    <p class="photo-cap">Cougar fan through and through</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== COURT IMAGE ===== -->
+    <div class="full-img-wrap">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chicago_Bulls_vs_Detroit_Pistons_January_2019_%2847097406321%29.jpg/1280px-Chicago_Bulls_vs_Detroit_Pistons_January_2019_%2847097406321%29.jpg"
+            alt="Basketball game"
+            class="full-img">
+        <div class="full-img-caption">The energy of a live game is hard to beat</div>
+    </div>
+
+    <!-- ===== YOUTUBE VIDEO (RUBRIC) ===== -->
+    <div id="video-sec" class="sec-wrap alt">
+        <div class="sec-inner">
+            <div class="sec-head"><h2>Great Basketball Moments</h2></div>
+            <p class="sec-intro">Relive some of the most exciting plays and moments in basketball:</p>
+            <div class="video-box">
+                <!-- RUBRIC: Embedded YouTube video -->
+                <iframe
+                    width="100%"
+                    height="460"
+                    src="https://www.youtube.com/embed/CkHQBQyDBLs"
+                    title="Basketball Highlights"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== TABLEAU (RUBRIC) ===== -->
+    <div id="tableau-sec" class="sec-wrap">
+        <div class="sec-inner">
+            <div class="sec-head"><h2>NBA 3-Point Shooting &mdash; Interactive Data</h2></div>
+            <p class="sec-intro">
+                Explore NBA three-point shooting trends with this live, interactive Tableau visualization:
+            </p>
+            <div class="tableau-box">
+                <!-- RUBRIC: Live interactive Tableau graph -->
+                <div class='tableauPlaceholder' id='viz1' style='position:relative; width:100%;'>
+                    <noscript>
+                        <a href='#'>
+                            <img alt='NBA 3 Pointers' src='https://public.tableau.com/static/images/NB/NBA3Pointers_15548396360400/Sheet2/1_rss.png' style='border:none' />
+                        </a>
+                    </noscript>
+                    <object class='tableauViz' style='display:none; width:100%;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                        <param name='embed_code_version' value='3' />
+                        <param name='site_root' value='' />
+                        <param name='name' value='NBA3Pointers_15548396360400/Sheet2' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en-US' />
+                    </object>
+                </div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width  = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== FOOTER (back to top anchor — RUBRIC) ===== -->
+    <footer class="scratch-footer">
+        <div class="footer-inner">
+            <a href="#top" class="back-top">&#8593; Back to Top</a>
+            <div class="footer-links">
+                <a href="index.html">Main Site</a>
+                <a href="webapp.html">Play Snake</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Ethan Abbott &middot; Provo, UT</p>
+        </div>
+    </footer>
+
+</body>
+</html>

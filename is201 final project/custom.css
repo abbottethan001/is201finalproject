@@ -1,0 +1,140 @@
+/* ================================================
+   Custom CSS — Bootstrap Pages (Custom CSS 1)
+   Ethan Abbott | About Me
+   ================================================ */
+
+/* --- Global --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+}
+
+/* --- Navbar --- */
+.navbar-brand {
+    letter-spacing: -0.3px;
+}
+.nav-link {
+    font-weight: 500;
+    transition: color 0.15s;
+}
+
+/* --- Hero --- */
+.hero-section {
+    background: linear-gradient(160deg, #e8f4fd 0%, #ffffff 55%, #d6eaf8 100%);
+    padding: 80px 0 60px;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #0d6efd;
+    box-shadow: 0 6px 28px rgba(13, 110, 253, 0.22);
+    display: block;
+    margin: 0 auto;
+}
+
+/* --- Section titles --- */
+.section-title {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #1a3a5c;
+}
+
+.section-rule {
+    width: 52px;
+    height: 4px;
+    background: #0d6efd;
+    border: none;
+    opacity: 1;
+}
+
+/* --- About cards --- */
+.about-card {
+    background: #f0f7ff;
+    border: 1px solid #cce0ff;
+    border-radius: 12px;
+    height: 100%;
+    transition: transform 0.22s, box-shadow 0.22s;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(13, 110, 253, 0.13);
+}
+
+/* --- Resume section --- */
+.resume-bg {
+    background-color: #f0f7ff;
+}
+
+.resume-block {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.75rem;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+}
+
+.resume-block-title {
+    font-size: 1.15rem;
+    color: #1a3a5c;
+    font-weight: 600;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid #e8f4fd;
+    margin-bottom: 1.1rem;
+}
+
+.resume-entry {
+    padding-left: 1rem;
+    border-left: 3px solid #0d6efd;
+}
+
+.resume-list {
+    margin-top: 0.4rem;
+    padding-left: 1.3rem;
+    color: #555;
+    font-size: 0.94rem;
+    line-height: 1.7;
+}
+
+.resume-list li {
+    margin-bottom: 0.3rem;
+}
+
+/* --- Skill pills --- */
+.skill-pill-group {
+    background: #f0f7ff;
+    border: 1px solid #cce0ff;
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+    height: 100%;
+}
+
+.skill-group-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #0d6efd;
+    margin-bottom: 0.5rem;
+}
+
+.skill-pill {
+    display: inline-block;
+    background: #ffffff;
+    border: 1px solid #cce0ff;
+    color: #2c3e50;
+    padding: 0.2rem 0.65rem;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    margin: 0.2rem 0.15rem;
+}
+
+/* --- Footer --- */
+.footer-icon {
+    transition: color 0.18s;
+}
+.footer-icon:hover {
+    color: #90caf9 !important;
+}
